@@ -24,4 +24,4 @@ void UFsendINT32(uint32_t x, uint8_t sign);
 // Uchiwa Fuujinn Send float
 void UFsendFLOAT(float fx);
 ```
-These message use UchiwaFuujinn System Exclusve.
+These messages formats are descrived on [UchiwaFuujinn System Exclusve](https://uchiwafuujinn.github.io/systemexclusive/uchiwa_sysex.html).
