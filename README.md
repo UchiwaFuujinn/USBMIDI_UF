@@ -1,11 +1,10 @@
 # USBMIDI_UF
 
-USBMIDI_UF is an Arduino library for IoTMIDI. It needs [USBMIDI](https://github.com/arduino-libraries/MIDIUSB) library.
-
-This library can send values or text data from Arduino to PC via MIDI.
-USBMIDI_UF class has following member functions.
-
-'''MIDIUSB_UF.h
+USBMIDI_UF is an Arduino library for IoTMIDI. It needs [USBMIDI](https://github.com/arduino-libraries/MIDIUSB) library.<br>
+This library can send values or text data from Arduino to PC via MIDI.<br>
+USBMIDI_UF class has following member functions.<br>
+<br>
+```MIDIUSB_UF.h
 // Sends a MIDI message to USB
 void sendMIDI(midiEventPacket_t event){ MidiUSB.sendMIDI(event); }
 // Flushes TX midi channel
@@ -22,4 +21,4 @@ void UFsendINT16(uint16_t x, uint8_t sign);
 void UFsendINT32(uint32_t x, uint8_t sign);
 // Uchiwa Fuujinn Send float
 void UFsendFLOAT(float fx);
-'''
+```
