@@ -1,7 +1,7 @@
 # USBMIDI_UF
 
 USBMIDI_UF is an Arduino library for IoTMIDI. <br>
-Down load this folder by zipfile and Install Arduino IDE. 
+Download this folder by zip file and install Arduino IDE. 
 It needs [USBMIDI](https://github.com/arduino-libraries/MIDIUSB) library.<br>
 This library can send values or text data from Arduino to PC via MIDI.<br>
 USBMIDI_UF class has following member functions.<br>
